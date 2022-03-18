@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Site ProgWeb S1</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--Pour le font si on veut autre chose regarder video : https://www.youtube.com/watch?v=9wB2H-NMzpU à partir de 29:30-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo"><span>C</span>ontroverse</a>
+      <div class="menutoggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu()">Accueil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu()">A propros</a></li>
+        <li><a href="#articles" onclick="toggleMenu()">Articles</a></li>
+        <li><a href="#equipe" onclick="toggleMenu()">L'Equipe</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+  </header>
+  <section class="banniere" id="banniere">
+    <div class="contenu">
+        <h2>Le développement des robots est-il un danger pour l’emploi ?</h2>
+        <p>Aujourd'hui les robots sont présents partout dans le monde sous différentes formes.
+        Ils sont majoritairement créer pour faciliter la vie des humains, cependant il s'avère
+        qu'ils sont aussi capables de les remplacer complétement pour certaines tâches notamment
+        dans les industries. C'est pourquoi par le biais de nos différents nous allons tenter de
+        comprendre si, oui ou non, les robots sont un danger pour l'emploi.
+        </p>
+    </div>
+  </section>
+  <section class="apropos" id="apropos">
+      <div class="row">
+          <div class="col50">
+              <h2 class="titre-app"><span>A</span> propos de nous</h2>
+              <p>Nous sommes un groupe de 4 étudiants en DUT Année Spéciale Informatique, notre
+                  objectif est de créer un site web sur un sujet sélectionné en cours de Communication.
+                  Nous avons choisi le thème du développement des robots car ils sont de plus en plus
+                  présent dans la vie de tous les jours mais nous ne sommes jamais réellement questionné
+                  sur quel impact ils peuvent avoir sur l'emploi.
+              </p>
+          </div>
+          <div class="col50">
+              <div class="img">
+                <img src="images/LOGO_filet_noir_RVB_grand-UM.jpg" alt="logoUMnoiretblanc">
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="articles" id="articles">
+      <div class="titre-articles">
+          <h2 class="titre-app"><span>A</span>rticles</h2>
+          <p>Pour mieux comprendre l'impact du développement des robots sur le monde du travail, notre groupe a effectué
+              une recherche documentaire. Grâce aux sources que nous avons récoltés et transférés dans une bibliographie
+              nous avons pu commencer la rédaction de nos articles. Chaque article reflète un point lié à notre problématique.
+              <span>Pour découvrir nos différents articles nous vous invitons à cliquer sur les images ci-dessous.</span>
+          </p>
+      </div>
+      <div class="contenu">
+          <div class="box">
+              <div class="imgbox">
+                  <a href="article1.html"><img src="images/i1.png" alt="imgartAlex"></a>
+              </div>
+              <div class="imgtext">
+                  <h3>La robotisation et nos emplois.</h3>
+              </div>
+          </div>
+          <div class="box">
+              <div class="imgbox">
+                  <a href="article2.html"><img src="images/i2.png" alt="imgartClement"></a>
+              </div>
+              <div class="imgtext">
+                  <h3>Comment les gouvernements s'adaptent face à la montée de la robotisation? Exemple de la France et du Japon.</h3>
+              </div>
+          </div>
+          <div class="box">
+              <div class="imgbox">
+                  <a href="article3.html"><img src="images/i3.png" alt="imgartObada"></a>
+              </div>
+              <div class="imgtext">
+                  <h3>Histoire de la robotisation.</h3>
+              </div>
+          </div>
+          <div class="box">
+              <div class="imgbox">
+                  <a href="article4.html"><img src="images/i4.png" alt="imgartLucas"></a>
+              </div>
+              <div class="imgtext">
+                  <h3>Le développement de la robotisation et des technologies dans l'avenir.</h3>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="equipe" id="equipe">
+      <div class="titre-articles blanc">
+          <h2 class="titre-app">L'<span>E</span>quipe</h2>
+          <p>Notre groupe est constitué de 4 étudiants venus de secteurs différents. C'est le sujet sur la robotisation qui nous a
+          menés à se mettre ensemble.</p>
+      </div>
+      <div class="contenu">
+          <div class="box">
+              <div class="imgbox">
+                  <img src="images/avataralex.png" alt="Alex">
+              </div>
+              <div class="imgtext">
+                  <p>Ancien étudiant de BTS SNIR, je me suis orienté vers un IUT d'informatique pour renforcer mes connaissances théoriques.</p>
+                  <h3>Alex Soubeyrand</h3>
+              </div>
+          </div>
+          <div class="box">
+              <div class="imgbox">
+                  <img src="images/avatarobada.png" alt="Obada">
+              </div>
+              <div class="imgtext">
+                  <p>Suite à un DUT GEII, je poursuis mon parcours en DUT INFO AS pour poursuivre ma passion pour l'informatique.</p>
+                  <h3>Obada Tabbab</h3>
+              </div>
+          </div>
+          <div class="box">
+              <div class="imgbox">
+                  <img src="images/avatar-clement.png" alt="Clément">
+              </div>
+              <div class="imgtext">
+                  <p>Diplômé d'une licence STAPS. J'ai fait le choix de me réorienter en informatique car ce secteur m'intéresse.</p>
+                  <h3>Clément Oiry</h3>
+              </div>
+          </div>
+          <div class="box">
+              <div class="imgbox">
+                  <img src="images/avatarlucas.png" alt="Lucas">
+              </div>
+              <div class="imgtext">
+                  <p>Diplômé d’un DUT GEII. Préparant actuellement un DUT Informatique afin de me spécialiser.</p>
+                  <h3>Lucas Cicchetti</h3>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="contact" id="contact">
+      <div class="titre-articles orange">
+          <h2 class="titre-app"><span>C</span>ontact</h2>
+          <p>Pour toutes questions par rapport au site ou aux articles, on vous invite à nous envoyer un message.</p>
+      </div>
+      <div class="contactform">
+          <h3>Envoyer un message</h3>
+          <div class="inputbox">
+              <input type="text" placeholder="Nom">
+          </div>
+          <div class="inputbox">
+              <input type="text" placeholder="Prénom">
+          </div>
+          <div class="inputbox">
+              <input type="text" placeholder="Email">
+          </div>
+          <div class="inputbox">
+              <textarea placeholder="Message..."></textarea>
+          </div>
+          <div class="inputbox">
+              <input type="submit" value="Envoyer">
+          </div>
+      </div>
+  </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+            });
+
+        function toggleMenu(){
+            const menutoggle = document.querySelector('.menutoggle');
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+            menutoggle.classList.toggle('active');
+            }
+    </script>
+</body>
+</html>

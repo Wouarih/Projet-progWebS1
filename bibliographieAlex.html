@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bibliographie Alex</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--Pour le font si on veut autre chose regarder video : https://www.youtube.com/watch?v=9wB2H-NMzpU à partir de 29:30-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class = "sticky">
+    <a href="#" class="logo"><span>C</span>ontroverse</a>
+    <div class="menutoggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="index.html#banniere" onclick="toggleMenu()">Accueil</a></li>
+        <li><a href="index.html#apropos" onclick="toggleMenu()">A propos</a></li>
+        <li><a href="index.html#articles" onclick="toggleMenu()">Articles</a></li>
+        <!--<li><a href="#" onclick="toggleMenu()">Synthèse</a></li>doit être sous forme de carte mentale(voir cours controverse)-->
+        <li><a href="index.html#equipe" onclick="toggleMenu()">L'Equipe</a></li>
+        <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+</header>
+
+<section class="part1" style="display: flex;flex-direction: column;align-items: center;">
+
+    <div>
+        <h2>Bibliographie</h2>
+    </div>
+    <div>
+        <p class="pBib">
+            [1]
+            <br>
+            L. Zohin, « 78 % des Français ont peur d’être remplacés par l’intelligence artificielle ou par un robot (Botnation) », juin 23, 2021. [En ligne]. Disponible sur:        <a href = "http://www.info-socialrh.fr/condition-travail/78-des-francais-ont-peur-detre-remplaces-par-lintelligence-artificielle-ou-par-un-robot-botnation-672975.php/?latest"> http://www.info-socialrh.fr/condition-travail/78-des-francais-ont-peur-detre-remplaces-par-lintelligence-artificielle-ou-par-un-robot-botnation-672975.php/?latest</a>
+
+        </p>
+        <p class="pBib">
+            [2]
+            <br>
+            N. Le Ru, «L’effet de l’automatisation sur l’emploi : ce qu’on sait et ce qu’on ignore», juill. 2016
+            [En ligne]. Disponible sur:
+            <a href = "https://www.strategie.gouv.fr/publications/leffet-de-lautomatisation-lemploi-quon-sait-quon-ignore"> https://www.strategie.gouv.fr/publications/leffet-de-lautomatisation-lemploi-quon-sait-quon-ignore</a>
+
+        </p>
+        <p class="pBib">
+            [3]
+            <br>
+            R. Demichelis, «20 millions d’emplois menacés par la robotisation», Les Echos, juin 27, 2019. Disponible sur :
+            <a href = "https://www.lesechos.fr/tech-medias/intelligence-artificielle/20-millions-demplois-menaces-par-la-robotisation-1032726"> https://www.lesechos.fr/tech-medias/intelligence-artificielle/20-millions-demplois-menaces-par-la-robotisation-1032726</a>
+
+        </p>
+
+        <p class="pBib">
+            [4]
+            <br>
+            AFP, «Robotisation dans le monde: la France, en tête de liste, dans l’automobile», Le Point, Washington, juill. 15, 2019. [En ligne]. Disponible sur:
+            <a href = "https://www.lepoint.fr/automobile/robotisation-dans-le-monde-la-france-en-tete-de-liste-dans-l-automobile-15-07-2019-2324661_646.php"> https://www.lepoint.fr/automobile/robotisation-dans-le-monde-la-france-en-tete-de-liste-dans-l-automobile-15-07-2019-2324661_646.php</a>
+        </p>
+
+        <p class="pBib">
+            [5]
+            <br>
+            «L’emploi menacé par les robots, réponse de l’industrie face à la récession ?», Capital.fr, juin 16, 2020. [En ligne]. Disponible sur:
+            <a href = "https://www.capital.fr/entreprises-marches/lemploi-menace-par-les-robots-reponse-de-lindustrie-face-a-la-recession-1372733"> https://www.capital.fr/entreprises-marches/lemploi-menace-par-les-robots-reponse-de-lindustrie-face-a-la-recession-1372733</a>
+        </p>
+
+        <p class="pBib">
+            [6]
+            <br>
+            «Emploi par activité − Tableaux de l’économie française | Insee», févr. 2020. [En ligne]. Disponible sur:
+            <a href = "https://www.insee.fr/fr/statistiques/4277675?sommaire=4318291"> https://www.insee.fr/fr/statistiques/4277675?sommaire=4318291</a>
+        </p>
+    </div>
+</section>
+
+<script type="text/javascript">
+    function toggleMenu(){
+      const menutoggle = document.querySelector('.menutoggle');
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('active');
+      menutoggle.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
